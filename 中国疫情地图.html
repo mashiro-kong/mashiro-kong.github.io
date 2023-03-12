@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>全国疫情分布</title>
+    <link href="web.css" rel="stylesheet" type="text/css" />
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/maps/china.js"></script>
+
+</head>
+<body >
+<table width="100%" border="10" cellpadding="0" cellspacing="5" class="nav">
+  <tr>
+
+    <td width="100" align="center"><a href="web.html">主页</a></td>
+    <td width="145" align="center"><a href="meigui.html">南丁格尔玫瑰图</a></td>
+    <td width="130" align="center"><a href="全球疫情地图.html">全球疫情分布</a></td>
+    <td width="150" align="center"><a href="全球疫情发展趋势.html">全球疫情动态分布</a></td>
+    <td width="130" align="center"><a href="中国疫情地图.html">全国疫情分布</a></td>
+    <td width="150" align="center"><a href="china_cCoV.html">全国动态疫情分布</a></td>
+    <td width="50" align="center"><a href="ciyun.html">词云</a></td>
+  </tr>
+</table>
+    <table width="1500" border="0" align="center" cellpadding="0" cellspacing="0" class="main">
+    </table>
+    <div id="8ef663ea7d054c289e6bba017922cd39" class="chart-container" style="width:1900px; height:900px; "></div>
+    <script>
+        var chart_8ef663ea7d054c289e6bba017922cd39 = echarts.init(
+            document.getElementById('8ef663ea7d054c289e6bba017922cd39'), 'dark', {renderer: 'canvas'});
+        var option_8ef663ea7d054c289e6bba017922cd39 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "series": [
+        {
+            "type": "map",
+            "label": {
+                "show": true,
+                "position": "inside",
+                "margin": 8
+            },
+            "map": "china",
+            "data": [
+                {
+                    "name": "\u5317\u4eac\u5e02",
+                    "value": 935
+                },
+                {
+                    "name": "\u5929\u6d25\u5e02",
+                    "value": 238
+                },
+                {
+                    "name": "\u6cb3\u5317\u7701",
+                    "value": 365
+                },
+                {
+                    "name": "\u5c71\u897f\u7701",
+                    "value": 203
+                },
+                {
+                    "name": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+                    "value": 263
+                },
+                {
+                    "name": "\u8fbd\u5b81\u7701",
+                    "value": 265
+                },
+                {
+                    "name": "\u5409\u6797\u7701",
+                    "value": 157
+                },
+                {
+                    "name": "\u9ed1\u9f99\u6c5f\u7701",
+                    "value": 948
+                },
+                {
+                    "name": "\u4e0a\u6d77\u5e02",
+                    "value": 974
+                },
+                {
+                    "name": "\u6c5f\u82cf\u7701",
+                    "value": 665
+                },
+                {
+                    "name": "\u6d59\u6c5f\u7701",
+                    "value": 1282
+                },
+                {
+                    "name": "\u5b89\u5fbd\u7701",
+                    "value": 991
+                },
+                {
+                    "name": "\u798f\u5efa\u7701",
+                    "value": 396
+                },
+                {
+                    "name": "\u6c5f\u897f\u7701",
+                    "value": 935
+                },
+                {
+                    "name": "\u5c71\u4e1c\u7701",
+                    "value": 831
+                },
+                {
+                    "name": "\u6cb3\u5357\u7701",
+                    "value": 1279
+                },
+                {
+                    "name": "\u6e56\u5317\u7701",
+                    "value": 68139
+                },
+                {
+                    "name": "\u6e56\u5357\u7701",
+                    "value": 1019
+                },
+                {
+                    "name": "\u5e7f\u4e1c\u7701",
+                    "value": 1800
+                },
+                {
+                    "name": "\u5e7f\u897f\u58ee\u65cf\u81ea\u6cbb\u533a",
+                    "value": 258
+                },
+                {
+                    "name": "\u6d77\u5357\u7701",
+                    "value": 171
+                },
+                {
+                    "name": "\u91cd\u5e86\u5e02",
+                    "value": 584
+                },
+                {
+                    "name": "\u56db\u5ddd\u7701",
+                    "value": 672
+                },
+                {
+                    "name": "\u8d35\u5dde\u7701",
+                    "value": 147
+                },
+                {
+                    "name": "\u4e91\u5357\u7701",
+                    "value": 208
+                },
+                {
+                    "name": "\u897f\u85cf\u81ea\u6cbb\u533a",
+                    "value": 1
+                },
+                {
+                    "name": "\u9655\u897f\u7701",
+                    "value": 401
+                },
+                {
+                    "name": "\u7518\u8083\u7701",
+                    "value": 170
+                },
+                {
+                    "name": "\u9752\u6d77\u7701",
+                    "value": 18
+                },
+                {
+                    "name": "\u5b81\u590f\u56de\u65cf\u81ea\u6cbb\u533a",
+                    "value": 75
+                },
+                {
+                    "name": "\u65b0\u7586\u7ef4\u543e\u5c14\u81ea\u6cbb\u533a",
+                    "value": 902
+                },
+                {
+                    "name": "\u53f0\u6e7e\u7701",
+                    "value": 509
+                },
+                {
+                    "name": "\u9999\u6e2f\u7279\u522b\u884c\u653f\u533a",
+                    "value": 5038
+                },
+                {
+                    "name": "\u6fb3\u95e8\u7279\u522b\u884c\u653f\u533a",
+                    "value": 46
+                }
+            ],
+            "roam": true,
+            "aspectScale": 0.75,
+            "nameProperty": "name",
+            "selectedMode": false,
+            "zoom": 1,
+            "mapValueCalculation": "sum",
+            "showLegendSymbol": false,
+            "emphasis": {}
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                ""
+            ],
+            "selected": {
+                "": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1,
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "formatter": "{b} : \u786e\u8bca{c}\u4eba",
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "title": [
+        {
+            "show": true,
+            "text": "\u5168\u56fd\u65b0\u51a0\u75ab\u60c5\u5730\u56fe",
+            "target": "blank",
+            "subtext": "\u7edf\u8ba1\u65f6\u95f4\u622a\u6b62\u81f32020.09.21 21\u65f6",
+            "subtarget": "blank",
+            "left": "center",
+            "top": "20",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false,
+            "textStyle": {
+                "fontFamily": "Microsoft YaHei",
+                "fontSize": 24
+            },
+            "subtextStyle": {
+                "fontFamily": "Microsoft YaHei",
+                "fontSize": 12
+            }
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "piecewise",
+        "min": 0,
+        "max": 100,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "dimension": 0,
+        "hoverLink": true,
+        "orient": "vertical",
+        "left": "10",
+        "bottom": "20",
+        "padding": 5,
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 14,
+        "borderWidth": 0,
+        "pieces": [
+            {
+                "max": 9,
+                "min": 0,
+                "label": "0-9",
+                "color": "#FFFFCC"
+            },
+            {
+                "max": 99,
+                "min": 10,
+                "label": "10-99",
+                "color": "#FFC4B3"
+            },
+            {
+                "max": 499,
+                "min": 100,
+                "label": "100-499",
+                "color": "#FF9985"
+            },
+            {
+                "max": 999,
+                "min": 500,
+                "label": "500-999",
+                "color": "#F57567"
+            },
+            {
+                "max": 4999,
+                "min": 1000,
+                "label": "1000-4999",
+                "color": "#E64546"
+            },
+            {
+                "max": 9999,
+                "min": 5000,
+                "label": "5000-9999",
+                "color": "#B80909"
+            },
+            {
+                "max": 49999,
+                "min": 10000,
+                "label": "10000-49999",
+                "color": "#8A0808"
+            },
+            {
+                "max": 99999,
+                "min": 50000,
+                "label": ">=50000",
+                "color": "#660000"
+            }
+        ]
+    }
+};
+        chart_8ef663ea7d054c289e6bba017922cd39.setOption(option_8ef663ea7d054c289e6bba017922cd39);
+    </script>
+</body>
+</html>
